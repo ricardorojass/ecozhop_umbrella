@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowJs": true,
+    "jsx": "react",
+    "outDir": "./dist/",
+    "strict": false,
+    // "types": [],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // "forceConsistentCasingInFileNames": true
+  },
+  "include": ["**/*.ts*"],
+  "exclude": [
+    "/node_modules/**/*",
+  ]
+}
